@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0/10 * * * * *"
+    },
+    {
+      "type": "queue",
+      "name": "myQueueItem",
+      "queueName": "functions-bindings",
+      "connection": "dtjillbc5d_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

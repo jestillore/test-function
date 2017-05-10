@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "functions-bindings",
+      "connection": "dtjillbc5d_STORAGE"
+    },
+    {
+      "type": "table",
+      "name": "myTable",
+      "tableName": "functionbindings",
+      "connection": "dtjillbc5d_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
